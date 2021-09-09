@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,16 +16,13 @@ class Reader():
         df_google = df_google[df_google['date'] > pd.to_datetime(dt) ]
         df_google = df_google[df_google['date'] < pd.to_datetime(de) ]
         df_google = df_google.set_index('date')
-        mpf.plot(df_google, savefig='chart.png')
-        
+        return df_google
     
     def showChartsBySymbol(self,kk):
         df_google = self.df[self.df['key'] == kk].copy()
         df_google['date'] = pd.to_datetime(df_google['date'])
         df_google = df_google.set_index('date')
-        mpf.plot(df_google,savefig='chart.png')
-        # fig = mpf.get_figure()
-        # return fig
+        return df_google
 
     def getCompanyInfo(self,symbol):
 
@@ -32,4 +30,5 @@ class Reader():
         r = requests.get(url = url)
         print(r)
         CompanyInfoJson = r.json()
+        return json.dumps(CompanyInfoJson)
 
