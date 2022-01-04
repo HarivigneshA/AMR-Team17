@@ -1,5 +1,5 @@
 # AMR-Team17
- Visualize StockDetails from .json in different representation with filters (name,daterange) using PyQt5 Designer.
+ Visualize StockDetails from StockList.json file in different representation (OHLC,VertexLine...) with filters (name,daterange) using PyQt5 Designer.
 
 ### StockList.json
 ![image](https://user-images.githubusercontent.com/69417101/148021594-31d382f9-7808-4f2d-90b3-ed5fec30e8c4.png)
