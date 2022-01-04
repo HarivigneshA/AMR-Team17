@@ -1,5 +1,5 @@
 # AMR-Team17
- Visualize StockDetails from StockList.json file in different representations (OHLC,VertexLine...) with filters such as CompanyName,Daterange using PyQt5 Designer.
+ Visualize StockDetails from StockList.json file in different representations (OHLC,BarGraph,VertexLine...) with filters such as CompanyName,Daterange using PyQt5 Designer.
 
 ### StockList.json
 ![image](https://user-images.githubusercontent.com/69417101/148021594-31d382f9-7808-4f2d-90b3-ed5fec30e8c4.png)
@@ -31,6 +31,12 @@
 
 ### VertexLine Graph
 ![image](https://user-images.githubusercontent.com/69417101/148022540-06a10b23-be6e-4b57-850e-f3988567cc48.png)
+
+--
+
+### Get Company Details by Name
+![image](https://user-images.githubusercontent.com/69417101/148023488-d7e58f31-26bb-41ee-b7d9-93266cd9dbf0.png)
+
 
 
 
