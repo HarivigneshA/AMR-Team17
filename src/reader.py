@@ -31,4 +31,5 @@ class Reader():
         print(r.json())
         CompanyInfoJson = r.json()
         return json.dumps(CompanyInfoJson)
+    
 
