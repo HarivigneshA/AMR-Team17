@@ -5,9 +5,9 @@
 ![image](https://user-images.githubusercontent.com/69417101/148021594-31d382f9-7808-4f2d-90b3-ed5fec30e8c4.png)
 
 ### PyQt5
-#### i) Visualize StockList by CompanyName (different representations - OHLC, BarGraph, Colored-BarGraph, CandleSticks, VertexLine)
-#### ii) Visualize StockList by Date range
-#### iii) Get Company Details
+ i) Visualize StockList by CompanyName (different representations - OHLC, BarGraph, Colored-BarGraph, CandleSticks, VertexLine)
+ ii) Visualize StockList by Date range
+ iii) Get Company Details
 
 ### OHLC graph
 ![image](https://user-images.githubusercontent.com/69417101/148022461-bdfe7ae8-63ed-40ba-b406-6044b1bafffd.png)
